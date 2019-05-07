@@ -1,0 +1,77 @@
+header {
+    -webkit-position: sticky;
+    position: sticky;
+    top: 0;
+    width: calc(100% - 300px);
+    height: 50px;
+    line-height: 50px;
+    background-color: #ff6f61;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+header nav {
+    display: block;
+    font-size: inherit;
+    width: 98%;
+    max-width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+header nav ul {
+    height: 50px;
+    list-style: none;
+    vertical-align: top;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    height: 50px;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+}
+
+header nav ul li span {
+    display: inline-block;
+}
+
+header nav ul li span.moji {
+    height: 45px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+header nav ul li span.line {
+    display: block;
+    width: 0;
+    height: 5px;
+    background: #fff;
+    /* background: #232323; */
+    margin: 0 auto;
+}
+
+header nav ul li:hover > span.moji {
+    /* color: #232323; */
+    color: #fff;
+}
+header nav ul li:hover > span.line {
+    width: 100%;
+}

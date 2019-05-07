@@ -1,0 +1,108 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+article, header, footer, aside, figure, figcaption, nav, section {
+  display: block; }
+
+body {
+  font-family: "Helvetica", "ヒラギノ角ゴ W6", "Hiragino Kaku Gothic W6", "メイリオ", Meiryo, "游ゴシック", "YuGothic", Osaka, Sans-serif;
+  font-size: 18px;
+  font-weight: lighter; }
+
+ol, ul, li {
+  list-style: none;
+  list-style-type: none; }
+
+a {
+  color: #222;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900; }
+
+small {
+  font-size: 0.5em; }
+
+section {
+  overflow: hidden; }
+
+.transition02s {
+  transition: .2s;
+}
+
+/* .title {
+  font-weight: bold; }
+
+.w270 {
+  width: 270px; }
+
+.wmax {
+  width: 100%; }
+
+.h050 {
+  height: 50px; }
+
+.h300 {
+  height: 300px; }
+
+.h600 {
+  height: 600px; }
+
+.hmax {
+  height: 100%; }
+
+.lh050 {
+  line-height: 50px; }
+
+.lh060 {
+  line-height: 60px; }
+
+.pt0 {
+  top: 0; }
+
+.pl0 {
+  left: 0; }
+
+.mh00 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.mh25 {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.mh50 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.mvauto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.mv00 {
+  margin-left: 0;
+  margin-right: 0; }
+
+.mv040 {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.ph070 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.us-none {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none; } */
+
+.material-icons {
+  display: inline-flex;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=reset.css.map */

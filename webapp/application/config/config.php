@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $root=(isset($_SERVER['HTTPS']) ? "https://" : "http://").$_SERVER['HTTP_HOST'];
 //$config['base_url'] = $root;
-$config['base_url'] = $root. "/team-oro/";
+$config['base_url'] = $root. "/team-oro/webapp/";
 
 /*
 |--------------------------------------------------------------------------

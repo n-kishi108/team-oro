@@ -12,10 +12,10 @@
                 $('header nav ul li').addClass('transition02s');
                 let td_len = $('.convert-wrapper tr:first-child').children().length;
                 let unit_width = Math.floor($('.convert-wrapper table').width() / td_len);
-                $('.convert-wrapper td').css({
-                    'width': unit_width,
-                    'height': unit_width * 1.1
-                });
+                // $('.convert-wrapper td').css({
+                //     'width': unit_width,
+                //     'height': unit_width
+                // });
             });
         </script>
     </head>

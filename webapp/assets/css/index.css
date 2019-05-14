@@ -38,8 +38,14 @@ main
     font-size: 0;
 }
 
+.convert-wrapper table tr {
+    height: 10px;
+    display: block;
+}
+
 .convert-wrapper table tr td {
-    font-size: 5px;
+    font-size: 9px;
+    /* -webkit-font-size: 8px; */
     display: inline-block;
 }
 

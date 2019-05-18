@@ -1,4 +1,4 @@
-package Typist Art;
+package typistart;
 
 public class Result extends ORO_Controller {
 

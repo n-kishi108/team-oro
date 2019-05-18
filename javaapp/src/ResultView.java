@@ -1,19 +1,26 @@
-package Typist Art;
+import system.typistart.view.ORO_View;
 
-public class ResultView extends ORO_View {
+import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
 
-	protected Result result;
+public class ResultView {
 
-	private Result result;
+	// protected Result result;
 
-	public ResultView ResultView(int aResult)
-	{
+	// private Result result;
+
+	public ResultView ResultView(int aResult) {
 		return null;
 	}
 
-	public void paintOfResult()
-	{
+	public void paintOfResult() {
 
+	}
+
+	public void init() {
+		JPanel background = new JPanel();
 	}
 
 }

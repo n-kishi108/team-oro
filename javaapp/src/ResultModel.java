@@ -1,4 +1,4 @@
-package Typist Art;
+package typistart;
 
 public class ResultModel extends Object {
 

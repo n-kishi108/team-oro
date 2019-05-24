@@ -32,7 +32,7 @@ public class ORO_View extends JPanel {
 	 * 指定されたモデルの依存物となり、コントローラを作り、モデルとビューを設定し、スクロール量を(0, 0)に設定する。
 	 * @param aModel このビューのモデル
 	 */
-	public View(Model aModel) {
+	public ORO_View(Model aModel) {
 		super();
 		this.model = aModel;
 		this.model.addDependent(this);
@@ -49,7 +49,7 @@ public class ORO_View extends JPanel {
 	 * @param aModel このビューのモデル
 	 * @param aController このビューのコントローラ
 	 */
-	public View(Model aModel, Controller aController) {
+	public ORO_View(Model aModel, Controller aController) {
 		super();
 		this.model = aModel;
 		this.model.addDependent(this);

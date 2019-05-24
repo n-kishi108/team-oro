@@ -1,10 +1,10 @@
-package typistart;
+package typistart.model;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
-import utility.ImageUtility;
+// import utility.ImageUtility;
 
 public class ResultModel extends Object {
 
@@ -24,7 +24,7 @@ public class ResultModel extends Object {
 
 	public String image;
 
-	public String char;
+	// public String p;
 
 	/**
 	 * インスタンスを生成して初期化して応答する。
@@ -35,23 +35,23 @@ public class ResultModel extends Object {
 		return;
 	}
 
-	/**
-	 * ファイル名(aString)からペインモデルを作るコンストラクタ。
-	 * @param aString 画像のファイル名
-	 */
-	public PaneModel(String aString) {
+	// /**
+	//  * ファイル名(aString)からペインモデルを作るコンストラクタ。
+	//  * @param aString 画像のファイル名
+	//  */
+	// public PaneModel(String aString) {
 
-		BufferedImage anImage = ImageUtility.readImage(aString);
-		this.picture(anImage);
-	}
+	// 	BufferedImage anImage = ImageUtility.readImage(aString);
+	// 	this.picture(anImage);
+	// }
 
-	/**
-	 * 画像(anImage)からペインモデルを作るコンストラクタ。
-	 * @param anImage 画像
-	 */
-	public PaneModel(BufferedImage anImage) {
-		this.picture(anImage);
-	}
+	// /**
+	//  * 画像(anImage)からペインモデルを作るコンストラクタ。
+	//  * @param anImage 画像
+	//  */
+	// public PaneModel(BufferedImage anImage) {
+	// 	this.picture(anImage);
+	// }
 
 	/**
 	 * 指定されたビューを依存物に設定する。

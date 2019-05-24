@@ -1,3 +1,5 @@
+import system.typistart.view.ORO_View;
+
 import java.util.ConcurrentModificationException;
 
 import java.awt.Color;
@@ -11,7 +13,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
-import utility.ImageUtility;
+// import utility.ImageUtility;
 
 public class MenuView extends ORO_View {
 
@@ -32,7 +34,7 @@ public class MenuView extends ORO_View {
 	 * @param aModel このビューのモデル
 	 * @param aController このビューのコントローラ
 	 */
-	public ResultView(ResultModel aModel, PaneController aController) {
+	public MenuView(ResultModel aModel, PaneController aController) {
 		super(aModel, aController);
 		this.intialize();
 	}
